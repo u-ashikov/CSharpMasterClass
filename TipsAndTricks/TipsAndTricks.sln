@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringReferences", "StringR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqMultipleEnumeration", "LinqMultipleEnumeration\LinqMultipleEnumeration.csproj", "{F522377F-A99B-497C-B6E8-CDE487F37C22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangingHashCode", "ChangingHashCode\ChangingHashCode.csproj", "{E0DE79FE-A707-411E-9E62-E0C413705809}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{F522377F-A99B-497C-B6E8-CDE487F37C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F522377F-A99B-497C-B6E8-CDE487F37C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F522377F-A99B-497C-B6E8-CDE487F37C22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0DE79FE-A707-411E-9E62-E0C413705809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0DE79FE-A707-411E-9E62-E0C413705809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0DE79FE-A707-411E-9E62-E0C413705809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0DE79FE-A707-411E-9E62-E0C413705809}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{765B4C75-E855-4E1F-B70D-93F5540EB719} = {D3987003-3C52-4FE6-B5B8-F1F83EE73209}
 		{B590A780-0B03-4544-BC1C-DD008F1B6E9A} = {D3987003-3C52-4FE6-B5B8-F1F83EE73209}
 		{F522377F-A99B-497C-B6E8-CDE487F37C22} = {D3987003-3C52-4FE6-B5B8-F1F83EE73209}
+		{E0DE79FE-A707-411E-9E62-E0C413705809} = {D3987003-3C52-4FE6-B5B8-F1F83EE73209}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1891FC9B-34C1-4598-9522-53DC83F868E5}
