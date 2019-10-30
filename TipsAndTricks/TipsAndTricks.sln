@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Traps", "Traps", "{D3987003-3C52-4FE6-B5B8-F1F83EE73209}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equality", "Equality\Equality.csproj", "{765B4C75-E855-4E1F-B70D-93F5540EB719}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Equality", "Equality\Equality.csproj", "{765B4C75-E855-4E1F-B70D-93F5540EB719}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringReferences", "StringReferences\StringReferences.csproj", "{B590A780-0B03-4544-BC1C-DD008F1B6E9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringReferences", "StringReferences\StringReferences.csproj", "{B590A780-0B03-4544-BC1C-DD008F1B6E9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqMultipleEnumeration", "LinqMultipleEnumeration\LinqMultipleEnumeration.csproj", "{F522377F-A99B-497C-B6E8-CDE487F37C22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{B590A780-0B03-4544-BC1C-DD008F1B6E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B590A780-0B03-4544-BC1C-DD008F1B6E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B590A780-0B03-4544-BC1C-DD008F1B6E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F522377F-A99B-497C-B6E8-CDE487F37C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F522377F-A99B-497C-B6E8-CDE487F37C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F522377F-A99B-497C-B6E8-CDE487F37C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F522377F-A99B-497C-B6E8-CDE487F37C22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{765B4C75-E855-4E1F-B70D-93F5540EB719} = {D3987003-3C52-4FE6-B5B8-F1F83EE73209}
 		{B590A780-0B03-4544-BC1C-DD008F1B6E9A} = {D3987003-3C52-4FE6-B5B8-F1F83EE73209}
+		{F522377F-A99B-497C-B6E8-CDE487F37C22} = {D3987003-3C52-4FE6-B5B8-F1F83EE73209}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1891FC9B-34C1-4598-9522-53DC83F868E5}
