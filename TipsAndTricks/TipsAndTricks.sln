@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Traps", "Traps", "{D3987003-3C52-4FE6-B5B8-F1F83EE73209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equality", "Equality\Equality.csproj", "{765B4C75-E855-4E1F-B70D-93F5540EB719}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{765B4C75-E855-4E1F-B70D-93F5540EB719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765B4C75-E855-4E1F-B70D-93F5540EB719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765B4C75-E855-4E1F-B70D-93F5540EB719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{765B4C75-E855-4E1F-B70D-93F5540EB719}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{765B4C75-E855-4E1F-B70D-93F5540EB719} = {D3987003-3C52-4FE6-B5B8-F1F83EE73209}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1891FC9B-34C1-4598-9522-53DC83F868E5}
+	EndGlobalSection
+EndGlobal
