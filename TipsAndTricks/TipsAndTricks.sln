@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangingHashCode", "Changin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualCallInConstructor", "VirtualCallInConstructor\VirtualCallInConstructor.csproj", "{BE28C49D-0513-42E3-88AF-46D23B17C6C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackTraceWithRethrowingException", "StackTraceWithRethrowingException\StackTraceWithRethrowingException.csproj", "{6E58AA04-C8C0-45F5-96D9-457F43170625}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{BE28C49D-0513-42E3-88AF-46D23B17C6C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE28C49D-0513-42E3-88AF-46D23B17C6C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE28C49D-0513-42E3-88AF-46D23B17C6C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E58AA04-C8C0-45F5-96D9-457F43170625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E58AA04-C8C0-45F5-96D9-457F43170625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E58AA04-C8C0-45F5-96D9-457F43170625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E58AA04-C8C0-45F5-96D9-457F43170625}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{F522377F-A99B-497C-B6E8-CDE487F37C22} = {D3987003-3C52-4FE6-B5B8-F1F83EE73209}
 		{E0DE79FE-A707-411E-9E62-E0C413705809} = {D3987003-3C52-4FE6-B5B8-F1F83EE73209}
 		{BE28C49D-0513-42E3-88AF-46D23B17C6C5} = {D3987003-3C52-4FE6-B5B8-F1F83EE73209}
+		{6E58AA04-C8C0-45F5-96D9-457F43170625} = {D3987003-3C52-4FE6-B5B8-F1F83EE73209}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1891FC9B-34C1-4598-9522-53DC83F868E5}
