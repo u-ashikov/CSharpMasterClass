@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace StackTraceWithRethrowingException
+﻿namespace StackTraceWithRethrowingException
 {
     public class Program
     {
@@ -8,7 +6,7 @@ namespace StackTraceWithRethrowingException
         {
             //ExceptionThrower.WithStackTrace();
             //ExceptionThrower.WithoutStackTrace();
-            //ExceptionThrower.WithNewException();
+            ExceptionThrower.WithNewException();
         }
     }
 }
