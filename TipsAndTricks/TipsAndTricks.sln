@@ -13,9 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqMultipleEnumeration", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangingHashCode", "ChangingHashCode\ChangingHashCode.csproj", "{E0DE79FE-A707-411E-9E62-E0C413705809}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualCallInConstructor", "VirtualCallInConstructor\VirtualCallInConstructor.csproj", "{BE28C49D-0513-42E3-88AF-46D23B17C6C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualCallInConstructor", "VirtualCallInConstructor\VirtualCallInConstructor.csproj", "{BE28C49D-0513-42E3-88AF-46D23B17C6C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackTraceWithRethrowingException", "StackTraceWithRethrowingException\StackTraceWithRethrowingException.csproj", "{6E58AA04-C8C0-45F5-96D9-457F43170625}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackTraceWithRethrowingException", "StackTraceWithRethrowingException\StackTraceWithRethrowingException.csproj", "{6E58AA04-C8C0-45F5-96D9-457F43170625}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SyntacticSugar", "SyntacticSugar", "{A552AFF3-B182-4F29-BA60-85472DC559AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceAndContravariance", "CovarianceAndContravariance\CovarianceAndContravariance.csproj", "{15CB653E-BD32-41D3-938C-D62791BD1998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastingVsAsOperator", "CastingVsAsOperator\CastingVsAsOperator.csproj", "{F6082E25-3D18-4E77-87E2-6023125EAF0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +53,14 @@ Global
 		{6E58AA04-C8C0-45F5-96D9-457F43170625}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E58AA04-C8C0-45F5-96D9-457F43170625}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E58AA04-C8C0-45F5-96D9-457F43170625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15CB653E-BD32-41D3-938C-D62791BD1998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15CB653E-BD32-41D3-938C-D62791BD1998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15CB653E-BD32-41D3-938C-D62791BD1998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15CB653E-BD32-41D3-938C-D62791BD1998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6082E25-3D18-4E77-87E2-6023125EAF0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6082E25-3D18-4E77-87E2-6023125EAF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6082E25-3D18-4E77-87E2-6023125EAF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6082E25-3D18-4E77-87E2-6023125EAF0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +72,8 @@ Global
 		{E0DE79FE-A707-411E-9E62-E0C413705809} = {D3987003-3C52-4FE6-B5B8-F1F83EE73209}
 		{BE28C49D-0513-42E3-88AF-46D23B17C6C5} = {D3987003-3C52-4FE6-B5B8-F1F83EE73209}
 		{6E58AA04-C8C0-45F5-96D9-457F43170625} = {D3987003-3C52-4FE6-B5B8-F1F83EE73209}
+		{15CB653E-BD32-41D3-938C-D62791BD1998} = {A552AFF3-B182-4F29-BA60-85472DC559AC}
+		{F6082E25-3D18-4E77-87E2-6023125EAF0B} = {A552AFF3-B182-4F29-BA60-85472DC559AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1891FC9B-34C1-4598-9522-53DC83F868E5}
