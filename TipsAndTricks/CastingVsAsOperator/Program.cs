@@ -15,6 +15,13 @@ namespace CastingVsAsOperator
             // The number will be null, ant won't throw exception.
             string numberAsString = number as string;
             Console.WriteLine(numberAsString);
+
+            object text = "100";
+            //var anotherNum = (int?)text;
+            //Console.WriteLine(anotherNum);
+
+            var anotherNum = text as int?;
+            Console.WriteLine(anotherNum.GetValueOrDefault());
         }
     }
 }
