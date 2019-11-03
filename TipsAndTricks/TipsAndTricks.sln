@@ -19,13 +19,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackTraceWithRethrowingExc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SyntacticSugar", "SyntacticSugar", "{A552AFF3-B182-4F29-BA60-85472DC559AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceAndContravariance", "CovarianceAndContravariance\CovarianceAndContravariance.csproj", "{15CB653E-BD32-41D3-938C-D62791BD1998}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CovarianceAndContravariance", "CovarianceAndContravariance\CovarianceAndContravariance.csproj", "{15CB653E-BD32-41D3-938C-D62791BD1998}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastingVsAsOperator", "CastingVsAsOperator\CastingVsAsOperator.csproj", "{F6082E25-3D18-4E77-87E2-6023125EAF0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CastingVsAsOperator", "CastingVsAsOperator\CastingVsAsOperator.csproj", "{F6082E25-3D18-4E77-87E2-6023125EAF0B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UsefulClassesAndMethods", "UsefulClassesAndMethods", "{0BA2839D-0F60-4709-AD1E-22691B8B1C80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodDeprecation", "MethodDeprecation\MethodDeprecation.csproj", "{59F40D9D-32E8-4DCE-86D3-4082E92F068A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodDeprecation", "MethodDeprecation\MethodDeprecation.csproj", "{59F40D9D-32E8-4DCE-86D3-4082E92F068A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OptionalParameters", "OptionalParameters", "{DC50CF98-4A85-4439-A170-2E50094594CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalParameters.Library", "OptionalParameters.Library\OptionalParameters.Library.csproj", "{CF85727F-668B-40D4-BB1E-E78BBAC5542A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalParameters.Client", "OptionalParameters.Client\OptionalParameters.Client.csproj", "{7565B1EB-4C14-43DF-8517-E6CD2282916B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +75,14 @@ Global
 		{59F40D9D-32E8-4DCE-86D3-4082E92F068A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59F40D9D-32E8-4DCE-86D3-4082E92F068A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59F40D9D-32E8-4DCE-86D3-4082E92F068A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF85727F-668B-40D4-BB1E-E78BBAC5542A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF85727F-668B-40D4-BB1E-E78BBAC5542A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF85727F-668B-40D4-BB1E-E78BBAC5542A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF85727F-668B-40D4-BB1E-E78BBAC5542A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7565B1EB-4C14-43DF-8517-E6CD2282916B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7565B1EB-4C14-43DF-8517-E6CD2282916B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7565B1EB-4C14-43DF-8517-E6CD2282916B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7565B1EB-4C14-43DF-8517-E6CD2282916B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +97,8 @@ Global
 		{15CB653E-BD32-41D3-938C-D62791BD1998} = {A552AFF3-B182-4F29-BA60-85472DC559AC}
 		{F6082E25-3D18-4E77-87E2-6023125EAF0B} = {A552AFF3-B182-4F29-BA60-85472DC559AC}
 		{59F40D9D-32E8-4DCE-86D3-4082E92F068A} = {0BA2839D-0F60-4709-AD1E-22691B8B1C80}
+		{CF85727F-668B-40D4-BB1E-E78BBAC5542A} = {DC50CF98-4A85-4439-A170-2E50094594CB}
+		{7565B1EB-4C14-43DF-8517-E6CD2282916B} = {DC50CF98-4A85-4439-A170-2E50094594CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1891FC9B-34C1-4598-9522-53DC83F868E5}
