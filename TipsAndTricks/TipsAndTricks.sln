@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalParameters.Library"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalParameters.Client", "OptionalParameters.Client\OptionalParameters.Client.csproj", "{7565B1EB-4C14-43DF-8517-E6CD2282916B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombineSequences", "CombineSequences\CombineSequences.csproj", "{39F2F396-B00D-4438-B7D6-43E72C363C4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{7565B1EB-4C14-43DF-8517-E6CD2282916B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7565B1EB-4C14-43DF-8517-E6CD2282916B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7565B1EB-4C14-43DF-8517-E6CD2282916B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F2F396-B00D-4438-B7D6-43E72C363C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F2F396-B00D-4438-B7D6-43E72C363C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F2F396-B00D-4438-B7D6-43E72C363C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F2F396-B00D-4438-B7D6-43E72C363C4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +105,7 @@ Global
 		{59F40D9D-32E8-4DCE-86D3-4082E92F068A} = {0BA2839D-0F60-4709-AD1E-22691B8B1C80}
 		{CF85727F-668B-40D4-BB1E-E78BBAC5542A} = {DC50CF98-4A85-4439-A170-2E50094594CB}
 		{7565B1EB-4C14-43DF-8517-E6CD2282916B} = {DC50CF98-4A85-4439-A170-2E50094594CB}
+		{39F2F396-B00D-4438-B7D6-43E72C363C4F} = {0BA2839D-0F60-4709-AD1E-22691B8B1C80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1891FC9B-34C1-4598-9522-53DC83F868E5}
