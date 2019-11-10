@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.LoadingAssemblies.Extens
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SystemTypeMethods", "02.SystemTypeMethods\02.SystemTypeMethods.csproj", "{FAC1B698-B886-4467-AFD6-AA2977C176C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.InstancesAndInvocations", "03.InstancesAndInvocations\03.InstancesAndInvocations.csproj", "{F5C6AD78-EE34-4CD2-8F66-270DEEFF127E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FAC1B698-B886-4467-AFD6-AA2977C176C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAC1B698-B886-4467-AFD6-AA2977C176C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAC1B698-B886-4467-AFD6-AA2977C176C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C6AD78-EE34-4CD2-8F66-270DEEFF127E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C6AD78-EE34-4CD2-8F66-270DEEFF127E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C6AD78-EE34-4CD2-8F66-270DEEFF127E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C6AD78-EE34-4CD2-8F66-270DEEFF127E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
