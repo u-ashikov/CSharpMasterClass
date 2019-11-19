@@ -47,10 +47,12 @@ namespace CreatingExpressionTreesExample
 
         private static void CreateMethodCallExpression()
         {
-            var expressionParameter = Expression.Parameter(typeof(Cat), nameof(Cat).ToLower());
+            var catType = typeof(Cat);
+
+            var expressionParameter = Expression.Parameter(catType, nameof(Cat).ToLower());
             var constantExpression = Expression.Constant(42);
 
-            var expressionBody = Expression.Call(expressionParameter, typeof(Cat).GetMethod("SayMeow"), constantExpression);
+            var expressionBody = Expression.Call(expressionParameter, catType.GetMethod("SayMeow"), constantExpression);
 
             var lambdaExpression = Expression.Lambda<Func<Cat, string>>(expressionBody, expressionParameter);
 
@@ -61,10 +63,12 @@ namespace CreatingExpressionTreesExample
 
         private static void CreateMethodCallWithParameter()
         {
-            var catParameter = Expression.Parameter(typeof(Cat), nameof(Cat).ToLower());
+            var catType = typeof(Cat);
+
+            var catParameter = Expression.Parameter(catType, nameof(Cat).ToLower());
             var numParameter = Expression.Parameter(typeof(int), "number");
 
-            var methodCallExpression = Expression.Call(catParameter, typeof(Cat).GetMethod("SayMeow"), numParameter);
+            var methodCallExpression = Expression.Call(catParameter, catType.GetMethod("SayMeow"), numParameter);
             var lambdaExpression = Expression.Lambda<Func<Cat, int, string>>(methodCallExpression, catParameter, numParameter);
 
             var func = lambdaExpression.Compile();

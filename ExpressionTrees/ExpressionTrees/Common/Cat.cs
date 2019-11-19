@@ -8,6 +8,8 @@
         {
             this.Name = name;
             this.Age = age;
+            this.SomeImportantProp = "Some Very Important Value";
+            this.ImportantField = 100;
         }
 
         public string Name { get; set; }
@@ -15,6 +17,10 @@
         public int Age { get; set; }
 
         public Owner Owner { get; set; }
+
+        private string SomeImportantProp { get; set; }
+
+        private int ImportantField;
 
         public string SayMeow(int num) => $"Meow!{num}";
     }
