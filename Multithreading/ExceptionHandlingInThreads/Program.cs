@@ -7,20 +7,20 @@ namespace ExceptionHandlingInThreads
     {
         public static void Main()
         {
+            var thread = new Thread(MethodWithException);
+            thread.Start();
+        }
+
+        public static void MethodWithException()
+        {
             try
             {
-                var thread = new Thread(MethodWithException);
-                thread.Start();
+                throw new ArgumentNullException();
             }
             catch (Exception ex)
             {
                 Console.WriteLine("I have caught the exception!");
             }
-        }
-
-        public static void MethodWithException()
-        {
-            throw new ArgumentNullException();
         }
     }
 }
