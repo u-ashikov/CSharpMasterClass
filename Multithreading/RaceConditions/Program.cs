@@ -11,14 +11,16 @@ namespace RaceConditions
 
         public static List<int> Numbers = Enumerable.Range(0, 10000).ToList();
 
+        public static object obj = new object();
+
         public static void Main()
         {
             var threads = new List<Thread>();
 
             for (int i = 0; i < 4; i++)
             {
-                var thread = new Thread(() => 
-                { 
+                var thread = new Thread(() =>
+                {
                     //IncrementNumber();
                     RemoveNumbers();
                 });
@@ -32,30 +34,28 @@ namespace RaceConditions
 
             //Console.WriteLine(Number);
 
-            // Remove numbers from list
-
-            // Deadlocks - project - 
-
-            // Passing parameters to threads - project
-
-            // Exception handling.
+            //Console.WriteLine(Numbers.Count);
         }
 
         public static void IncrementNumber()
         {
             for (var i = 0; i < 10000; i++)
             {
-                Number++;
+                lock (obj)
+                {
+                    Number++;
+                }
             }
-
-            Thread.Sleep(5000);
         }
 
         public static void RemoveNumbers()
         {
-            while (Numbers.Count != default)
+            lock (obj)
             {
-                Numbers.RemoveAt(Numbers.Count-1);
+                while (Numbers.Count > default(int))
+                {
+                    Numbers.RemoveAt(Numbers.Count - 1);
+                }
             }
         }
     }

@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsStack", "ThreadsStac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceConditions", "RaceConditions\RaceConditions.csproj", "{DD2D09B1-2C48-4897-B501-A9A49527556D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deadlocks", "Deadlocks\Deadlocks.csproj", "{35F7E30F-CCF9-4E32-AFF2-7918E3135B9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandlingInThreads", "ExceptionHandlingInThreads\ExceptionHandlingInThreads.csproj", "{20A78AFB-3386-4195-826E-D8308073D71F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{DD2D09B1-2C48-4897-B501-A9A49527556D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD2D09B1-2C48-4897-B501-A9A49527556D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD2D09B1-2C48-4897-B501-A9A49527556D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F7E30F-CCF9-4E32-AFF2-7918E3135B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F7E30F-CCF9-4E32-AFF2-7918E3135B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F7E30F-CCF9-4E32-AFF2-7918E3135B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F7E30F-CCF9-4E32-AFF2-7918E3135B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20A78AFB-3386-4195-826E-D8308073D71F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A78AFB-3386-4195-826E-D8308073D71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A78AFB-3386-4195-826E-D8308073D71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A78AFB-3386-4195-826E-D8308073D71F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
