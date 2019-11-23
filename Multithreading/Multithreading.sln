@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandlingInThreads"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitors", "Monitors\Monitors.csproj", "{C28C3861-9529-48FC-9497-2B88E9BE1163}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semaphores", "Semaphores\Semaphores.csproj", "{6469F932-AE6F-46B1-9505-C76824F6BA80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{C28C3861-9529-48FC-9497-2B88E9BE1163}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C28C3861-9529-48FC-9497-2B88E9BE1163}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C28C3861-9529-48FC-9497-2B88E9BE1163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6469F932-AE6F-46B1-9505-C76824F6BA80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6469F932-AE6F-46B1-9505-C76824F6BA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6469F932-AE6F-46B1-9505-C76824F6BA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6469F932-AE6F-46B1-9505-C76824F6BA80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
