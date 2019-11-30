@@ -15,6 +15,19 @@ namespace DynamicExample
             this.type = obj.GetType();
         }
 
+        public override bool TryInvokeMember(InvokeMemberBinder binder, object[] args, out object result)
+        {
+            var method = this.type.GetMethod(binder.Name, BindingFlags.NonPublic | BindingFlags.Instance);
+
+            if (method != null)
+            {
+                result = method.Invoke(this.obj, args);
+                return true;
+            }
+
+            return base.TryInvokeMember(binder, args, out result);
+        }
+
         public override bool TryGetMember(GetMemberBinder binder, out object result)
         {
             var propName = binder.Name;

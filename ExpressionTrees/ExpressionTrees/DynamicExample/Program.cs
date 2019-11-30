@@ -14,6 +14,8 @@ namespace DynamicExample
             var propValue = exposedObject.SomeImportantProp;
             var fieldValue = exposedObject.ImportantField;
 
+            var result = exposedObject.Introduce();
+
             Console.WriteLine(propValue);
             Console.WriteLine(fieldValue);
         }

@@ -23,5 +23,7 @@
         private int ImportantField;
 
         public string SayMeow(int num) => $"Meow!{num}";
+
+        private string Introduce() => $"Hi my name is {this.Name}, I am {this.Age} years old.";
     }
 }
