@@ -1,1 +1,1 @@
-# CSharpMasterClass
+# CSharp Master Class Course at SoftUni
